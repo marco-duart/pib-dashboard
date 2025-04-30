@@ -1,4 +1,5 @@
 export namespace Ibge {
+  // Tipagens para os dados do PIB do IBGE
   export interface Response {
     id: string;
     variavel: string;
@@ -8,21 +9,17 @@ export namespace Ibge {
       series: {
         localidade: {
           id: string;
-          nivel: {
-            id: string;
-            nome: string;
-          };
           nome: string;
         };
         serie: Record<string, string>;
       }[];
     }[];
-  }
+  } // Resposta bruta da API
 
   export interface ProcessedData {
     year: string;
     totalPib: number;
     pibPerCapita: number;
     population?: number;
-  }
+  } // Dados tratados
 }
