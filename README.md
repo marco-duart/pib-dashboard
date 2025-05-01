@@ -24,9 +24,11 @@ Dashboard interativo que exibe:
 ## ⚙️ Configuração do Ambiente
 1. Clone o repositório:
 ```git clone https://github.com/marco-duart/pib-dashboard.git```
+
+2. Acesse o projeto:
 ```cd pib-dashboard```
 
-2. Instale as dependências:
+3. Instale as dependências:
 ```npm install```
 
 ## 🚀 Executando o Projeto
@@ -36,19 +38,19 @@ Dashboard interativo que exibe:
 | npm run test:watch  | Executa testes em modo wath desenvolvimento | -      |
 
 ## 🏗️ Estrutura do Projeto
-src/
-├── assets/
-├── components/
-├── config/
-├── constants/
-├── context/
-├── pages/
-├── routes/
-├── services/
-├── App.tsx
-└── main.tsx
-tests/
-└── unit/
+src/  
+├── assets/  
+├── components/  
+├── config/  
+├── constants/  
+├── context/  
+├── pages/  
+├── routes/  
+├── services/  
+├── App.tsx  
+└── main.tsx  
+tests/  
+└── unit/  
 
 ## 🌐 Deploy
 [Ver Online](https://pib-dashboard.vercel.app/)
