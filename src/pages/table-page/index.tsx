@@ -59,7 +59,6 @@ const TablePage = () => {
               <S.TableHeaderCell>Ano</S.TableHeaderCell>
               <S.TableHeaderCell>PIB Total (USD)</S.TableHeaderCell>
               <S.TableHeaderCell>PIB per Capita (USD)</S.TableHeaderCell>
-              <S.TableHeaderCell>População</S.TableHeaderCell>
             </tr>
           </S.TableHeader>
 
@@ -81,10 +80,6 @@ const TablePage = () => {
                     currency: "USD",
                     maximumFractionDigits: 2,
                   })}
-                </S.TableCell>
-                <S.TableCell>
-                  {/* Plus para ficar completinho */}
-                  {item.population?.toLocaleString("pt-BR") ?? "N/A"}
                 </S.TableCell>
               </S.TableRow>
             ))}
